@@ -28,4 +28,12 @@
     "prettier/prettier": ["warn", { "endOfLine": "auto" }],
     "react/prop-types": "warn"
   }
+  ,"prettier/prettier": [
+    "error",
+    {
+      "singleQuote": true,
+      "parser": "flow"
+    }
+  ]
+
 }

@@ -29,15 +29,13 @@ import youTubeIcon from "../images/socials/youtube.svg";
 const Footer = (props) => {
   const {
     devDotTo,
-    email,
-    gitHub,
-    instagram,
-    linkedIn,
-    medium,
-    name,
+    email = "kartikeysharma.sharma@gmail.com",
+    gitHub = "https://github.com/kartikeysharma98281",
+    linkedIn = "https://www.linkedin.com/in/kartikey-sharma-879747220/",
+    medium = "https://medium.com/@kartikeysharma-sharma",
+    name = "Kartikey Sharma",
     primaryColor,
     twitter,
-    youTube,
   } = props;
 
   return (
@@ -70,11 +68,11 @@ const Footer = (props) => {
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
+          <a href={`${gitHub}`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
-        {instagram && (
+        {/* {instagram && (
           <a
             href={`https://www.instagram.com/${instagram}`}
             target="_blank"
@@ -82,10 +80,10 @@ const Footer = (props) => {
           >
             <img src={instagramIcon} alt="Instagram" className="socialIcon" />
           </a>
-        )}
+        )} */}
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/${linkedIn}`}
+            href={`${linkedIn}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -93,7 +91,7 @@ const Footer = (props) => {
           </a>
         )}
         {medium && (
-          <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
+          <a href={`${medium}`} target="_blank" rel="noopener noreferrer">
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
           </a>
         )}
@@ -102,7 +100,7 @@ const Footer = (props) => {
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
-        {youTube && (
+        {/* {youTube && (
           <a
             href={`https://www.youtube.com/c/${youTube}`}
             target="_blank"
@@ -110,7 +108,7 @@ const Footer = (props) => {
           >
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
-        )}
+        )} */}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}

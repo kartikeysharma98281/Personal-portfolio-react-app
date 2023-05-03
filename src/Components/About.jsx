@@ -31,12 +31,9 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web development",
+  "UX/UI designer",
+  "MERN stack",
 ];
 
 /**
@@ -45,7 +42,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am a MERN stack developer and I am pursuing my B.Tech degree in CSE studying at VIT, Bhopal University. I am a passionate learner and  I love to explore new technologies by which I have command on latest libraries. I am a quick learner and I am always ready to accept new challenges and I try to improve problem solving using data structures and algorithm. I am a hardworking and dedicated person. I am a team player and I am always ready to help my team members. I am a quick learner and I am always ready to accept new challenges. I am a hardworking and dedicated person. I am a team player and I am always ready to help my team members.";
 
 const About = () => {
   return (
