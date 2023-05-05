@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://kartikeysharma98281.github.io/personal-portfolio-react-app'",
+    "build-gh": "parcel build --public-url 'https://kartikeysharma98281.github.io/Personal-portfolio-react-app'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
